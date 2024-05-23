@@ -1,6 +1,6 @@
 {
-    "name": "felixdorn/:name",
-    "description": ":description",
+    "name": "felixdorn/favicons",
+    "description": "Download favicons from any website.",
     "license": "MIT",
     "authors": [
         {
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Felix\\:namespace\\": "src/"
+            "Felix\\Favicons\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Felix\\:namespace\\Tests\\": "tests/"
+            "Felix\\Favicons\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev",
